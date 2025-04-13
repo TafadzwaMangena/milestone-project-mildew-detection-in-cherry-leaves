@@ -31,7 +31,25 @@ This hypothesis will be tested by training a model using labeled image data and 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-- List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+ ### Business Requirement 1
+
+ - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one affected by powdery mildew.
+
+ #### Rationale for Data Visualisation Tasks
+ 
+ ##### Average Image Calculation:
+   - Generate an average image for each class (healthy and powdery mildew) to highlight the typical appearance and structure of leaves in both categories.
+
+ ##### Image Variability Analysis:
+   - Create variability (standard deviation) images for each class to visualize the range of differences within the same category, helping to identify consistent features and outliers.
+
+ ##### Difference Image Comparison:
+   - Compute and display a difference image between the average healthy leaf and the average powdery mildew-infected leaf. This will provide a direct visual representation of class distinctions.
+
+ ##### Image Montage Creation:
+   - Display montages of sample images for both healthy and mildew-infected leaves to give a quick visual overview and support human intuition about the dataset.
+ 
+ These visual tools will allow both technical and non-technical stakeholders to better understand the feasibility of automating the detection process and highlight the visual basis for model training.
 
 ## ML Business Case
 
