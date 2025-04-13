@@ -51,6 +51,18 @@ This hypothesis will be tested by training a model using labeled image data and 
  
  These visual tools will allow both technical and non-technical stakeholders to better understand the feasibility of automating the detection process and highlight the visual basis for model training.
 
+ ### Business Requirement 2
+   - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew using an ML system.
+
+ #### Rationale for Machine Learning Tasks
+   - This requirement will be addressed by developing a classification model capable of processing leaf images and predicting their health status. The tasks to meet this requirement include:
+
+ ##### Data Preprocessing:
+   - Images will be resized and normalized to ensure consistent input dimensions for model training, while balancing between image quality and model size. Given the original 256x256 resolution, alternative shapes such as 100x100 or 50x50 may be used to reduce the final model size to under 100MB for easier deployment and GitHub version control.
+
+
+This structured approach ensures that the model is not only technically sound but also practically useful in reducing manual inspection time and supporting large-scale deployment.
+
 ## ML Business Case
 
 - In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
