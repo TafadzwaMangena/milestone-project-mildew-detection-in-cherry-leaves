@@ -118,6 +118,9 @@ Class 1: Powdery Mildew-Infected
     - The Image Montage offers a side-by-side look at randomly selected healthy and infected samples, providing visual confirmation that powdery mildew typically appears as white patches on the infected leaf surfaces.
       
 ### Page 5: ML Performance Metrics
+- Label Frequencies for Train, Validation and Test Sets
+- Model History - Accuracy and Losses
+- Model evaluation result
 
 ## Unfixed Bugs
 
