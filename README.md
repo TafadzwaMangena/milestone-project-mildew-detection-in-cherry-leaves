@@ -97,6 +97,18 @@ Class 1: Powdery Mildew-Infected
 - This page is designed to support both human intuition and model explainability by offering a hands-on look at the data before and after feature extraction.
 
 ### Page 3: Mildew Detector
+- To deliver an automated system capable of predicting whether a cherry leaf is healthy or shows signs of powdery mildew infection based on image input.
+- A link to the original dataset on [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves) is provided, allowing users to download sample images of both infected and healthy cherry leaves for testing purposes.
+
+#### User Interaction Flow:
+- A file upload widget allows users to select and upload one or more cherry leaf images for real-time prediction.
+- Once images are submitted, the trained binary classification model processes each image and returns:
+    - A clear prediction label for each image, indicating whether the leaf is infected or healthy.
+    - A probability bar plot for each prediction, visually displaying the model’s confidence in its classification.
+    - A summary results table listing the uploaded filenames alongside their respective prediction outcomes.
+- To support further analysis or reporting, users can export the prediction results using the provided CSV download link located beneath the results table.
+- This page simulates a real-world deployment scenario where farm staff could use the model on new leaf samples to receive instant predictions and take informed action.
+
 ### Page 4: Project Hypothesis and Validation
 ### Page 5: ML Performance Metrics
 
