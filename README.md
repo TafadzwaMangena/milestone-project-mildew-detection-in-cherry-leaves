@@ -110,6 +110,13 @@ Class 1: Powdery Mildew-Infected
 - This page simulates a real-world deployment scenario where farm staff could use the model on new leaf samples to receive instant predictions and take informed action.
 
 ### Page 4: Project Hypothesis and Validation
+- The working hypothesis behind this project is that cherry leaves affected by powdery mildew display distinct visual symptoms, most notably the presence of white, powdery patches on the leaf surface, which can reliably distinguish them from healthy leaves.
+- To investigate this assumption, a series of visual analyses were performed:
+
+    - The Average Image Comparison highlights that healthy leaves tend to show a clean, uniform surface, whereas the average appearance of infected leaves clearly displays white blotches — a visual cue associated with mildew.
+    - The Variability Image Analysis indicates that infected leaves exhibit noticeable variations, especially marked by bright streaks and irregular patterns across the center area — patterns that are largely absent in the healthy leaf class.
+    - The Image Montage offers a side-by-side look at randomly selected healthy and infected samples, providing visual confirmation that powdery mildew typically appears as white patches on the infected leaf surfaces.
+      
 ### Page 5: ML Performance Metrics
 
 ## Unfixed Bugs
